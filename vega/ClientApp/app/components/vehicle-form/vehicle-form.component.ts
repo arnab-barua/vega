@@ -28,5 +28,7 @@ export class VehicleFormComponent implements OnInit {
         console.log(selectedMake);
         this.models = selectedMake ? selectedMake.model : [];
     }
+    newFunction() {
 
+    }
 }
